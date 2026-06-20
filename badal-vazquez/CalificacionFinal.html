@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificacion Final</title>
+</head>
+<body>
+
+    <form action="#">
+    <div class="mb-4">
+
+    <h1 class=" text+3xl font-bold mb-6">TAREAS 5 (30%)</h1>
+        <thead>
+        <th>TAREA 1</th>
+    <input type="number" id="tarea_1" name="tarea_1"
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700">
+        <th>TAREA 2</th>
+    <input type="number" id="tarea_2" name="tarea_2"
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700">
+        <th>TAREA 3</th>
+    <input type="number" id="tarea_3" name="tarea_3"
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700">
+        <th>TAREA 4</th>
+    <input type="number" id="tarea_4" name="tarea_4"
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700">
+        <th>TAREA 5 </th>
+    <input type="number" id="tarea_5" name="tarea_5"
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700">
+        </thead>
+    </div>
+
+    <div class="mb-5">
+
+    <h1 class=" text+3xl font-bold mb-6">EJERCICIOS 6 (30%)</h1>
+        <thead>
+        <th>EJERCICIO 1</th>
+        <input type="number" id="ejercicio_1" name="ejercicio_2"
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700"> 
+        <th>EJERCICIO 2</th>
+    <input type="number" id="ejercicio_2" name="ejercicio_2
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700">
+        <th>EJERCICIO 3</th>
+    <input type="number" id="ejercicio_3" name="ejercicio_3"
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700">
+        <th>EJERCICIO 4</th>
+    <input type="number" id="ejercicio_4" name="ejercicio_4"
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700">
+        <th>EJERCICIO 5 </th>
+    <input type="number" id="ejercicio_5" name="ejercicio_5"
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700">
+       <th>EJERCICIO 6 </th>
+    <input type="number" id="ejercicio_6" name="ejercicio_6"
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700">
+    </thead>
+    </div>
+        
+    <div class="mb-5">
+        <h1 class=" text+3xl font-bold mb-6">EXÁMEN (40%)</h1>
+        <thead>
+        <th>EXÁMEN</th>
+        <input type="number" id="examen" name="examen"
+        class="w-full px-4 py-3 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:ring-2 focus:ring-pink-200 outline-none transition-all duration-300 bg-pink-50 text-gray-700"> 
+        </thead>
+        </div>
+    <p id="resultado" class="text-center text-lg font-bold text-purple-600 bg-purple-50 rounded-xl p-3 mb-4 min-h-[48px]"></p>
+    
+
+
+    <div class="grid grid-cols-2 gap-3">
+         <button type ="button" id="btntareas"> Calcular porcentaje de tareas</button>
+         <button type ="button" id="btnejercicios"> Calcular porcentaje de ejercicios</button>
+         <button type ="button" id="btnexamen"> Calcular porcentaje de examen</button>
+         <button type ="button" id="btnfinal"> Calificación Final</button>
+
+         <script src="funciones-examen.js"></script>
+
+
+    </div>
+    </form>
+
+
+
+
+</body>
+</html>
